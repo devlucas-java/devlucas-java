@@ -1,0 +1,143 @@
+[
+  {
+    "id": "social-klyp",
+    "featured": true,
+    "githubUrl": "https://github.com/devlucas-java/social-klyp",
+    "diagramUrl": "",
+    "readmeUrl": "https://github.com/devlucas-java/social-klyp#readme",
+    "technologies": ["Java", "Spring Boot", "YugabyteDB", "Redis", "Docker", "JWT", "WebSocket", "Backblaze B2", "Stripe", "Testcontainers"],
+    "title": {
+      "es": "Social Klyp — Backend de Red Social",
+      "en": "Social Klyp — Social Network Backend"
+    },
+    "description": {
+      "es": "API REST de red social construida con Java 21, Spring Boot y Arquitectura Hexagonal. Incluye autenticación JWT (Nimbus JOSE), contraseñas Argon2, login social con Google OAuth2, chat en tiempo real con WebSocket/STOMP, pagos con Stripe, almacenamiento en Backblaze B2 y tests unitarios con JUnit 5 y Mockito.",
+      "en": "Social network REST API built with Java 21, Spring Boot and Hexagonal Architecture. Features JWT auth (Nimbus JOSE), Argon2 passwords, Google OAuth2 social login, real-time chat with WebSocket/STOMP, Stripe payments, Backblaze B2 storage and unit tests with JUnit 5 and Mockito."
+    },
+    "diagramDescription": {
+      "es": "Diagrama de Arquitectura Hexagonal con capas domain, application, infrastructure y delivery.",
+      "en": "Hexagonal Architecture diagram with domain, application, infrastructure and delivery layers."
+    }
+  },
+  {
+    "id": "klyp-shop",
+    "featured": true,
+    "githubUrl": "https://github.com/devlucas-java/klyp-shop",
+    "diagramUrl": "",
+    "readmeUrl": "https://github.com/devlucas-java/klyp-shop#readme",
+    "technologies": ["Go", "Chi", "GORM", "YugabyteDB", "JWT", "WebSocket", "Docker", "Swagger", "BTCPay", "Elasticsearch", "CDC"],
+    "title": {
+      "es": "Klyp Shop — Plataforma E-commerce",
+      "en": "Klyp Shop — E-commerce Platform"
+    },
+    "description": {
+      "es": "Plataforma e-commerce inspirada en Amazon, construida con Go y Arquitectura Hexagonal. Sistema de usuarios y vendedores, gestión de productos, reseñas y ratings, dashboard de vendedor, chat en tiempo real con WebSocket (cifrado E2E), autenticación JWT y pago con Bitcoin via BTCPay Server.",
+      "en": "E-commerce platform inspired by Amazon, built with Go and Hexagonal Architecture. User and seller system, product management, reviews and ratings, seller dashboard, real-time chat with WebSocket (E2E encrypted), JWT authentication and Bitcoin payments via BTCPay Server."
+    },
+    "diagramDescription": {
+      "es": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "luca-s3",
+    "featured": true,
+    "githubUrl": "https://github.com/devlucas-java/luca-s3",
+    "diagramUrl": "",
+    "readmeUrl": "https://github.com/devlucas-java/luca-s3#readme",
+    "technologies": ["Go", "Chi", "Cassandra", "MinIO", "Redis", "JWT", "Docker", "Nginx"],
+    "title": {
+      "es": "Luca S3 — Plataforma de Streaming de Video",
+      "en": "Luca S3 — Video Streaming Platform"
+    },
+    "description": {
+      "es": "API de streaming de video construida con Go y Arquitectura Hexagonal. El usuario sube videos que se procesan y retornan un manifest HLS (m3u8) para streaming adaptativo, igual que YouTube y Netflix. Autenticación JWT con roles, gateway Nginx, almacenamiento en MinIO, Cassandra para metadatos y Redis para caché.",
+      "en": "Video streaming API built with Go and Hexagonal Architecture. Users upload videos that are processed and return an HLS manifest (m3u8) for adaptive streaming, just like YouTube and Netflix. JWT auth with roles, Nginx gateway, MinIO storage, Cassandra for metadata and Redis for caching."
+    },
+    "diagramDescription": {
+      "es": "Diagrama del flujo completo: cliente → gateway Nginx → handlers → servicios → MinIO, Cassandra y Redis.",
+      "en": "Full flow diagram: client → Nginx gateway → handlers → services → MinIO, Cassandra and Redis."
+    }
+  },
+  {
+    "id": "lucaflix",
+    "featured": true,
+    "githubUrl": "https://github.com/devlucas-java/lucaflix-backend-refactor",
+    "liveUrl": "https://lucasflix.netlify.app/",
+    "diagramUrl": "",
+    "readmeUrl": "https://github.com/devlucas-java/lucaflix-backend-refactor#readme",
+    "technologies": ["Java", "Spring Boot", "JWT", "Docker", "Swagger", "MapStruct"],
+    "title": {
+      "es": "Lucaflix — Plataforma de Streaming",
+      "en": "Lucaflix — Streaming Platform"
+    },
+    "description": {
+      "es": "Backend de plataforma de streaming inspirada en Netflix. 144 tests implementados, Arquitectura Hexagonal, JWT seguro con roles, DTOs con MapStruct, manejo global de errores, Swagger, Spring Actuator y perfiles dev/test/prod. Frontend desplegado en Netlify, backend en Fly.io.",
+      "en": "Streaming platform backend inspired by Netflix. 144 tests implemented, Hexagonal Architecture, secure JWT with roles, DTOs with MapStruct, global error handling, Swagger, Spring Actuator and dev/test/prod profiles. Frontend deployed on Netlify, backend on Fly.io."
+    },
+    "diagramDescription": {
+      "es": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "api-luca-bank",
+    "featured": true,
+    "githubUrl": "https://github.com/devlucas-java/ApiLucaBank",
+    "diagramUrl": "",
+    "readmeUrl": "https://github.com/devlucas-java/ApiLucaBank#readme",
+    "technologies": ["Java", "Spring Boot", "PostgreSQL", "JWT", "Docker", "Swagger", "MapStruct", "Prometheus"],
+    "title": {
+      "es": "ApiLucaBank — API Bancaria Segura",
+      "en": "ApiLucaBank — Secure Banking API"
+    },
+    "description": {
+      "es": "API bancaria construida con Java 21, Spring Boot y Arquitectura Hexagonal. Autenticación JWT, control de acceso por roles (USER, ADMIN, ENTERPRISE) y permisos granulares (SEND_TRANSACTIONS, MANAGE_USER...). Validación de DTOs con Bean Validation, manejo centralizado de errores, métricas con Prometheus/Actuator, documentación Swagger y soporte Docker Compose.",
+      "en": "Banking API built with Java 21, Spring Boot and Hexagonal Architecture. JWT authentication, role-based access control (USER, ADMIN, ENTERPRISE) and granular permissions (SEND_TRANSACTIONS, MANAGE_USER...). DTO validation with Bean Validation, centralized error handling, Prometheus/Actuator metrics, Swagger docs and Docker Compose support."
+    },
+    "diagramDescription": {
+      "es": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "luca-task",
+    "featured": true,
+    "githubUrl": "https://github.com/devlucas-java/LucaTask",
+    "diagramUrl": "",
+    "readmeUrl": "https://github.com/devlucas-java/LucaTask#readme",
+    "technologies": ["Go", "Chi", "GORM", "PostgreSQL", "JWT", "Testify"],
+    "title": {
+      "es": "LucaTask — API de Gestión de Tareas",
+      "en": "LucaTask — Task Management API"
+    },
+    "description": {
+      "es": "API REST de gestión de tareas construida con Go y Arquitectura Hexagonal. Chi Router, GORM, middleware JWT con extracción de claims por contexto, hash de contraseñas con bcrypt, validación de DTOs y tests unitarios e integración con Testify.",
+      "en": "Task management REST API built with Go and Hexagonal Architecture. Chi Router, GORM, JWT middleware with context-based claims extraction, bcrypt password hashing, DTO validation and unit/integration tests with Testify."
+    },
+    "diagramDescription": {
+      "es": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "opportunity-api",
+    "featured": false,
+    "githubUrl": "https://github.com/devlucas-java/opportunity-api",
+    "diagramUrl": "",
+    "readmeUrl": "https://github.com/devlucas-java/opportunity-api#readme",
+    "technologies": ["Go", "Gin", "MySQL", "GORM", "Docker"],
+    "title": {
+      "es": "Opportunity API — Red Profesional",
+      "en": "Opportunity API — Professional Network"
+    },
+    "description": {
+      "es": "API backend inspirada en LinkedIn, construida con Go y Gin. Gestión de usuarios, perfiles profesionales y oportunidades de trabajo. Incluye sistema de logging estructurado, arquitectura en capas (Router → Controller → Service → Repository) e integración con MySQL.",
+      "en": "Backend API inspired by LinkedIn, built with Go and Gin. Manages users, professional profiles and job opportunities. Features structured logging system, layered architecture (Router → Controller → Service → Repository) and MySQL integration."
+    },
+    "diagramDescription": {
+      "es": "",
+      "en": ""
+    }
+  }
+]

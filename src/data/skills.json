@@ -1,0 +1,46 @@
+[
+  {
+    "category": { "es": "Backend", "en": "Backend" },
+    "icon": "🖥️",
+    "skills": ["Java", "Go", "Spring Boot", "Gin", "Chi", "GORM", "JWT", "WebSocket", "REST API", "gRPC", "Hexagonal Architecture"]
+  },
+  {
+    "category": { "es": "Bases de Datos", "en": "Databases" },
+    "icon": "🗄️",
+    "skills": ["PostgreSQL", "YugabyteDB", "MySQL", "Cassandra", "Redis", "Elasticsearch"]
+  },
+  {
+    "category": { "es": "DevOps & Infraestructura", "en": "DevOps & Infrastructure" },
+    "icon": "⚙️",
+    "skills": ["Docker", "Docker Compose", "Linux", "Nginx", "VPS", "Git", "GitHub"]
+  },
+  {
+    "category": { "es": "Redes", "en": "Networking" },
+    "icon": "🌐",
+    "skills": ["DNS", "IPv4 / IPv6", "MikroTik", "BGP", "CGNAT", "NAT", "WAN / LAN", "Proxy", "VPN"]
+  },
+  {
+    "category": { "es": "Arquitectura de Sistemas", "en": "System Architecture" },
+    "icon": "🏗️",
+    "note": { "es": "Conocimiento teórico", "en": "Theoretical knowledge" },
+    "skills": ["Hexagonal Architecture", "Multipart Upload", "CDC (Change Data Capture)", "HLS Streaming", "Event-Driven", "Microservices", "API Gateway", "Object Storage"]
+  },
+  {
+    "category": { "es": "Frontend (básico)", "en": "Frontend (basic)" },
+    "icon": "🎨",
+    "note": { "es": "Conocimiento básico", "en": "Basic knowledge" },
+    "skills": ["React", "TypeScript", "HTML", "CSS", "Tailwind CSS"]
+  },
+  {
+    "category": { "es": "Mobile (básico)", "en": "Mobile (basic)" },
+    "icon": "📱",
+    "note": { "es": "Conocimiento básico", "en": "Basic knowledge" },
+    "skills": ["React Native", "Expo", "TypeScript", "NativeWind"]
+  },
+  {
+    "category": { "es": "Ciberseguridad", "en": "Cybersecurity" },
+    "icon": "🔐",
+    "note": { "es": "Conocimiento básico", "en": "Basic knowledge" },
+    "skills": ["Burp Suite", "Nmap", "OWASP Top 10", "Pentesting básico"]
+  }
+]

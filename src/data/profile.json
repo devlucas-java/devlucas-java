@@ -1,0 +1,24 @@
+{
+  "name": "Lucas Macedo",
+  "role": {
+    "es": "Desarrollador Backend",
+    "en": "Backend Developer"
+  },
+  "bio": {
+    "es": "Desarrollador Backend apasionado por crear soluciones escalables y de alto rendimiento. Especializado en Java y Go con Arquitectura Hexagonal, con conocimientos básicos de frontend.",
+    "en": "Backend Developer passionate about building scalable and high-performance solutions. Specialized in Java and Go with Hexagonal Architecture, with basic frontend knowledge."
+  },
+  "photo": "/profile.jpg",
+  "github": "https://github.com/devlucas-java",
+  "linkedin": "https://linkedin.com/in/devlucas-java",
+  "email": "devlucasjava@gmail.com",
+  "location": {
+    "es": "Espanha Burgos",
+    "en": "Spain Burgos"
+  },
+  "languages": [
+    { "name": { "es": "Portugués", "en": "Portuguese" }, "level": { "es": "Nativo", "en": "Native" }, "flag": "🇧🇷" },
+    { "name": { "es": "Español",   "en": "Spanish"    }, "level": { "es": "B1",     "en": "B1"     }, "flag": "🇪🇸" },
+    { "name": { "es": "Inglés",    "en": "English"    }, "level": { "es": "A1",     "en": "A1"     }, "flag": "🇺🇸" }
+  ]
+}
