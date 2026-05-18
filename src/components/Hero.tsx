@@ -21,7 +21,7 @@ export default function Hero() {
               <img
                 src={profile.photo}
                 alt={profile.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full"
                 width={224}
                 height={224}
                 onError={e => {
