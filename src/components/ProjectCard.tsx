@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import type { Project } from '../types';
 import { useLanguage } from '../context/LanguageContext';
 import TechBadge from './TechBadge';
@@ -10,36 +9,16 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project, activeTech }: ProjectCardProps) {
   const { t } = useLanguage();
-  const [showDiagram, setShowDiagram] = useState(false);
 
   const isFiltered = activeTech !== null && !project.technologies.includes(activeTech);
 
   if (isFiltered) return null;
 
   return (
-    <div
-      className={`relative group rounded-2xl border bg-[#1a1a24] transition-all duration-300 overflow-hidden
-        ${project.featured
-          ? 'border-violet-500/40 shadow-lg shadow-violet-500/10'
-          : 'border-white/5 hover:border-white/10'
-        }
-      `}
-    >
-      {/* Featured badge */}
-      {project.featured && (
-        <div className="absolute top-4 right-4 z-10">
-          <span className="flex items-center gap-1 px-2.5 py-1 bg-violet-500/20 border border-violet-500/40 rounded-full text-violet-300 text-xs font-medium">
-            <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-            </svg>
-            {t({ es: 'Destacado', en: 'Featured' })}
-          </span>
-        </div>
-      )}
-
+    <div className="relative group rounded-2xl border border-white/5 hover:border-white/10 bg-[#1a1a24] transition-all duration-300 overflow-hidden">
       <div className="p-6">
         {/* Title */}
-        <h3 className="text-lg font-semibold text-white mb-3 pr-20 leading-snug">
+        <h3 className="text-lg font-semibold text-white mb-3 leading-snug">
           {t(project.title)}
         </h3>
 
@@ -100,52 +79,36 @@ export default function ProjectCard({ project, activeTech }: ProjectCardProps) {
             README
           </a>
 
-          {/* Diagram toggle — só mostra se tiver URL */}
+          {/* YouTube — só mostra se tiver URL */}
+          {project.youtubeUrl && (
+            <a
+              href={project.youtubeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 bg-red-500/10 hover:bg-red-500/20 border border-red-500/20 hover:border-red-500/40 rounded-lg text-sm text-red-400 hover:text-red-300 transition-all"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+              YouTube
+            </a>
+          )}
+
+          {/* Diagram — só mostra se tiver URL, abre link direto */}
           {project.diagramUrl && (
-          <button
-            onClick={() => setShowDiagram(v => !v)}
-            className={`flex items-center gap-2 px-4 py-2 border rounded-lg text-sm transition-all
-              ${showDiagram
-                ? 'bg-violet-500/20 border-violet-500/40 text-violet-300'
-                : 'bg-white/5 hover:bg-white/10 border-white/10 hover:border-white/20 text-slate-300 hover:text-white'
-              }
-            `}
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zM14 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
-            </svg>
-            {t({ es: 'Diagrama', en: 'Diagram' })}
-          </button>
+            <a
+              href={project.diagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 bg-violet-500/10 hover:bg-violet-500/20 border border-violet-500/20 hover:border-violet-500/40 rounded-lg text-sm text-violet-400 hover:text-violet-300 transition-all"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zM14 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
+              </svg>
+              {t({ es: 'Diagrama', en: 'Diagram' })}
+            </a>
           )}
         </div>
-
-        {/* Diagram panel */}
-        {showDiagram && (
-          <div className="mt-5 p-4 rounded-xl bg-white/3 border border-white/5">
-            {project.diagramUrl ? (
-              <div>
-                <p className="text-slate-400 text-xs mb-3">{t(project.diagramDescription)}</p>
-                <img
-                  src={project.diagramUrl}
-                  alt={t(project.title) + ' diagram'}
-                  className="w-full rounded-lg border border-white/10"
-                />
-              </div>
-            ) : (
-              <div className="flex flex-col items-center justify-center py-8 text-center">
-                <svg className="w-10 h-10 text-slate-600 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zM14 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
-                </svg>
-                <p className="text-slate-500 text-sm">
-                  {t({ es: 'Agrega la URL del diagrama en projects.json', en: 'Add the diagram URL in projects.json' })}
-                </p>
-                <p className="text-slate-600 text-xs mt-1">
-                  {t(project.diagramDescription)}
-                </p>
-              </div>
-            )}
-          </div>
-        )}
       </div>
     </div>
   );

@@ -2,45 +2,77 @@
   {
     "category": { "es": "Backend", "en": "Backend" },
     "icon": "🖥️",
-    "skills": ["Java", "Go", "Spring Boot", "Gin", "Chi", "GORM", "JWT", "WebSocket", "REST API", "gRPC", "Hexagonal Architecture"]
+    "skills": [
+      "Java",
+      "Go",
+      "Spring Boot",
+      "Chi",
+      "REST API",
+      "WebSocket",
+      "gRPC",
+      "Hexagonal Architecture"
+    ]
   },
   {
     "category": { "es": "Bases de Datos", "en": "Databases" },
     "icon": "🗄️",
-    "skills": ["PostgreSQL", "YugabyteDB", "MySQL", "Cassandra", "Redis", "Elasticsearch"]
+    "skills": ["PostgreSQL", "YugaByteDB", "Redis", "Elasticsearch"]
   },
   {
-    "category": { "es": "DevOps & Infraestructura", "en": "DevOps & Infrastructure" },
+    "category": {
+      "es": "DevOps & Infraestructura",
+      "en": "DevOps & Infrastructure"
+    },
     "icon": "⚙️",
-    "skills": ["Docker", "Docker Compose", "Linux", "Nginx", "VPS", "Git", "GitHub"]
+    "skills": ["Docker", "Linux", "Nginx", "Git", "GitHub", "VPS"]
   },
   {
-    "category": { "es": "Redes", "en": "Networking" },
+    "category": { "es": "Redes (Experiencia Laboral)", "en": "Networking (work experience)" },
     "icon": "🌐",
-    "skills": ["DNS", "IPv4 / IPv6", "MikroTik", "BGP", "CGNAT", "NAT", "WAN / LAN", "Proxy", "VPN"]
+    "skills": [
+      "DNS",
+      "IPv4 / IPv6",
+      "MikroTik",
+      "BGP",
+      "CGNAT",
+      "NAT",
+      "WAN / LAN / WLAN",
+      "Proxy",
+      "VPN",
+      "Tor Onion",
+      "Server Onion"
+    ]
   },
   {
-    "category": { "es": "Arquitectura de Sistemas", "en": "System Architecture" },
+    "category": {
+      "es": "Arquitectura de Sistemas",
+      "en": "System Architecture"
+    },
     "icon": "🏗️",
-    "note": { "es": "Conocimiento teórico", "en": "Theoretical knowledge" },
-    "skills": ["Hexagonal Architecture", "Multipart Upload", "CDC (Change Data Capture)", "HLS Streaming", "Event-Driven", "Microservices", "API Gateway", "Object Storage"]
+    "skills": [
+      "Event-Driven Architecture",
+      "API Gateway",
+      "Object Storage",
+      "HLS Streaming",
+      "DASH Streaming"
+    ]
   },
   {
     "category": { "es": "Frontend (básico)", "en": "Frontend (basic)" },
     "icon": "🎨",
-    "note": { "es": "Conocimiento básico", "en": "Basic knowledge" },
     "skills": ["React", "TypeScript", "HTML", "CSS", "Tailwind CSS"]
   },
   {
-    "category": { "es": "Mobile (básico)", "en": "Mobile (basic)" },
-    "icon": "📱",
-    "note": { "es": "Conocimiento básico", "en": "Basic knowledge" },
-    "skills": ["React Native", "Expo", "TypeScript", "NativeWind"]
-  },
-  {
-    "category": { "es": "Ciberseguridad", "en": "Cybersecurity" },
+    "category": { "es": "Seguridad", "en": "Security" },
     "icon": "🔐",
-    "note": { "es": "Conocimiento básico", "en": "Basic knowledge" },
-    "skills": ["Burp Suite", "Nmap", "OWASP Top 10", "Pentesting básico"]
+    "skills": [
+      "JWT",
+      "Basic Security Web",
+      "SHA-256",
+      "Argon2",
+      "bcrypt",
+      "AES",
+      "RSA"
+    ]
   }
 ]

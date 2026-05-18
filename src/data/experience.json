@@ -1,0 +1,138 @@
+[{
+  "id": "freelance",
+  "company": "Freelance",
+  "role": {
+    "es": "Desarrollador Backend",
+    "en": "Backend Developer"
+  },
+  "type": {
+    "es": "Freelance",
+    "en": "Freelance"
+  },
+  "period": {
+    "es": "ene 2025 – presente · 1 año 5 meses",
+    "en": "Jan 2025 – present · 1 year 5 months"
+  },
+  "location": {
+    "es": "Burgos, España · Remoto",
+    "en": "Burgos, Spain · Remote"
+  },
+  "description": {
+    "es": "Desarrollo de APIs backend utilizando Java (Spring Boot) y Go (Chi), aplicando principios de arquitectura limpia (hexagonal y en capas). Diseño e implementación de servicios REST escalables, integración con bases de datos SQL (PostgreSQL, YugaByteDB, ElastcSearch), contenedores con Docker y despliegues en entornos Linux. Uso de Git para control de versiones y colaboración en proyectos.",
+    "en": "Backend API development using Java (Spring Boot) and Go (Chi), applying clean architecture principles (hexagonal and layered). Design and implementation of scalable REST services, integration with SQL databases (PostgreSQL, YugaByteDB, ElastcSearch), Docker containerization, and deployments on Linux environments. Use of Git for version control and collaboration."
+  },
+  "skills": [
+    "Java",
+    "Go",
+    "Spring Boot",
+    "Chi",
+    "REST APIs",
+    "Hexagonal Architecture",
+    "PostgreSQL",
+    "MySQL",
+    "Docker",
+    "Linux",
+    "Git"
+  ]
+},
+  {
+    "id": "norte-net-2",
+    "company": "Norte.Net Telecom",
+    "role": {
+      "es": "Técnico de Redes",
+      "en": "Network Technician"
+    },
+    "type": {
+      "es": "Tiempo completo",
+      "en": "Full-time"
+    },
+    "period": {
+      "es": "oct 2024 – ene 2025 · 4 meses",
+      "en": "Oct 2024 – Jan 2025 · 4 months"
+    },
+    "location": {
+      "es": "Santa Maria das Barreiras, Pará, Brasil · Presencial",
+      "en": "Santa Maria das Barreiras, Pará, Brazil · On-site"
+    },
+    "description": {
+      "es": "Redes con OLTs, Suite, Route Board, equipos Datacom y Mikrotik.",
+      "en": "Networks with OLTs, Suite, Route Board, Datacom and Mikrotik equipment."
+    },
+    "skills": ["Mikrotik", "Datacom", "OLT", "Redes"]
+  },
+  {
+    "id": "netmil",
+    "company": "Netmil",
+    "role": {
+      "es": "Técnico de Telecomunicaciones",
+      "en": "Telecommunications Technician"
+    },
+    "type": {
+      "es": "Tiempo completo",
+      "en": "Full-time"
+    },
+    "period": {
+      "es": "abr 2024 – oct 2024 · 7 meses",
+      "en": "Apr 2024 – Oct 2024 · 7 months"
+    },
+    "location": {
+      "es": "Santana do Araguaia, Pará, Brasil · Presencial",
+      "en": "Santana do Araguaia, Pará, Brazil · On-site"
+    },
+    "description": {
+      "es": "Sistemas de redes y telecomunicaciones.",
+      "en": "Network and telecommunications systems."
+    },
+    "skills": ["Telecomunicaciones", "Redes"]
+  },
+  {
+    "id": "norte-net-1",
+    "company": "Norte.Net Telecom",
+    "role": {
+      "es": "Técnico de Telecomunicaciones",
+      "en": "Telecommunications Technician"
+    },
+    "type": {
+      "es": "Tiempo completo",
+      "en": "Full-time"
+    },
+    "period": {
+      "es": "nov 2022 – mar 2024 · 1 año 5 meses",
+      "en": "Nov 2022 – Mar 2024 · 1 year 5 months"
+    },
+    "location": {
+      "es": "Santa Maria das Barreiras, Pará, Brasil · Presencial",
+      "en": "Santa Maria das Barreiras, Pará, Brazil · On-site"
+    },
+    "description": {
+      "es": "Sistemas de telecomunicaciones.",
+      "en": "Telecommunications systems."
+    },
+    "skills": ["Telecomunicaciones", "Redes"]
+  },
+  {
+    "id": "centrosat",
+    "company": "CentroSat",
+    "role": {
+      "es": "Técnico de Seguridad Electrónica",
+      "en": "Electronic Security Technician"
+    },
+    "type": {
+      "es": "Tiempo completo",
+      "en": "Full-time"
+    },
+    "period": {
+      "es": "feb 2019 – may 2021 · 2 años 4 meses",
+      "en": "Feb 2019 – May 2021 · 2 years 4 months"
+    },
+    "location": {
+      "es": "Brasil · Presencial",
+      "en": "Brazil · On-site"
+    },
+    "description": {
+      "es": "Instalación y mantenimiento de sistemas de seguridad electrónica.",
+      "en": "Installation and maintenance of electronic security systems."
+    },
+    "skills": ["Seguridad Electrónica", "CCTV"]
+  }
+]

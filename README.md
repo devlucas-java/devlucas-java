@@ -12,9 +12,11 @@ Personal portfolio built with **React**, **TypeScript** and **Tailwind CSS**.
 ## ✨ Features
 
 - ES / EN language toggle
-- Projects with GitHub, README and diagram links
+- Hero section with bio, location and languages
+- Work experience timeline
+- Education section
+- Projects with GitHub, README, diagram and YouTube links
 - Filter projects by technology
-- Featured projects highlight
 - Skills section with categories
 - Responsive design
 
@@ -47,13 +49,13 @@ Edit the JSON files in `src/data/`:
 
 | File | Description |
 |------|-------------|
-| `profile.json` | Your name, bio, photo, links |
-| `projects.json` | Your projects |
-| `skills.json` | Your skills |
+| `profile.json` | Name, bio, photo, social links, location, languages |
+| `experience.json` | Work experience entries |
+| `education.json` | Education entries |
+| `projects.json` | Projects with links and technologies |
+| `skills.json` | Skills grouped by category |
 
 Place your profile photo at `public/profile.jpg`.
-
-For diagrams, export from draw.io as PNG and place in `public/diagrams/`.
 
 ## 👨‍💻 Author
 

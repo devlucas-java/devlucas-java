@@ -16,12 +16,40 @@ export interface Project {
   featured: boolean;
   githubUrl: string;
   liveUrl?: string;
-  diagramUrl: string;
+  diagramUrl?: string;
+  youtubeUrl?: string;
   readmeUrl: string;
   technologies: string[];
   title: LocalizedString;
   description: LocalizedString;
-  diagramDescription: LocalizedString;
+}
+
+export interface Education {
+  id: string;
+  institution: string;
+  degree: LocalizedString;
+  field: LocalizedString;
+  period: LocalizedString;
+}
+
+export interface Certification {
+  id: string;
+  name: string;
+  issuer: string;
+  date: LocalizedString;
+  credentialUrl: string;
+  skills: string[];
+}
+
+export interface Experience {
+  id: string;
+  company: string;
+  role: LocalizedString;
+  period: LocalizedString;
+  location: LocalizedString;
+  description: LocalizedString;
+  skills: string[];
+  type: LocalizedString;
 }
 
 export interface Profile {

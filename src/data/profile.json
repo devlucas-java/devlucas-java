@@ -4,10 +4,10 @@
     "es": "Desarrollador Backend",
     "en": "Backend Developer"
   },
-  "bio": {
-    "es": "Desarrollador Backend apasionado por crear soluciones escalables y de alto rendimiento. Especializado en Java y Go con Arquitectura Hexagonal, con conocimientos básicos de frontend.",
-    "en": "Backend Developer passionate about building scalable and high-performance solutions. Specialized in Java and Go with Hexagonal Architecture, with basic frontend knowledge."
-  },
+"bio": {
+  "es": "Desarrollador Backend especializado en Java y Go, enfocado en sistemas escalables, arquitectura limpia y alto rendimiento. Experiencia en arquitecturas monolíticas y conocimientos en sistemas distribuidos, criptografía y protocolos modernos como HTTP, WebSocket y gRPC.",
+  "en": "Backend Developer specialized in Java and Go, focused on scalable systems, clean architecture and high performance. Experience with monolithic architectures and knowledge of distributed systems, cryptography, and modern protocols such as HTTP, WebSocket and gRPC."
+},
   "photo": "/profile.jpg",
   "github": "https://github.com/devlucas-java",
   "linkedin": "https://linkedin.com/in/devlucas-java",
@@ -17,8 +17,20 @@
     "en": "Spain Burgos"
   },
   "languages": [
-    { "name": { "es": "Portugués", "en": "Portuguese" }, "level": { "es": "Nativo", "en": "Native" }, "flag": "🇧🇷" },
-    { "name": { "es": "Español",   "en": "Spanish"    }, "level": { "es": "B1",     "en": "B1"     }, "flag": "🇪🇸" },
-    { "name": { "es": "Inglés",    "en": "English"    }, "level": { "es": "A1",     "en": "A1"     }, "flag": "🇺🇸" }
+    {
+      "name": { "es": "Portugués", "en": "Portuguese" },
+      "level": { "es": "Nativo", "en": "Native" },
+      "flag": "🇧🇷"
+    },
+    {
+      "name": { "es": "Español", "en": "Spanish" },
+      "level": { "es": "B1", "en": "B1" },
+      "flag": "🇪🇸"
+    },
+    {
+      "name": { "es": "Inglés", "en": "English" },
+      "level": { "es": "A1", "en": "A1" },
+      "flag": "🇺🇸"
+    }
   ]
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cruzeiro-do-sul",
+    "institution": "Universidade Cruzeiro do Sul",
+    "degree": {
+      "es": "Grado en Ingeniería de Software",
+      "en": "Bachelor's in Software Engineering"
+    },
+  "field": {
+    "es": "Ingeniería de software con enfoque en desarrollo de sistemas, arquitectura backend y seguridad de aplicaciones",
+    "en": "Software engineering with focus on system development, backend architecture and application security"
+  },
+    "period": {
+      "es": "ene 2026 – nov 2029",
+      "en": "Jan 2026 – Nov 2029"
+    }
+  }
+]
