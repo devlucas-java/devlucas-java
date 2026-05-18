@@ -57,6 +57,8 @@ export interface Profile {
   role: LocalizedString;
   bio: LocalizedString;
   photo: string;
+  cv: string;
+  cvDownloadName: string;
   github: string;
   linkedin: string;
   email: string;

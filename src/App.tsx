@@ -12,7 +12,7 @@ export default function App() {
     <LanguageProvider>
       <div className="min-h-screen bg-[#0f0f13]">
         <Navbar />
-        <main>
+        <main className='mt-5'>
           <Hero />
           <Experience />
           <Education />

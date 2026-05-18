@@ -19,7 +19,7 @@
   },
   "description": {
     "es": "Desarrollo de APIs backend utilizando Java (Spring Boot) y Go (Chi), aplicando principios de arquitectura limpia (hexagonal y en capas). Diseño e implementación de servicios REST escalables, integración con bases de datos SQL (PostgreSQL, YugaByteDB, ElastcSearch), contenedores con Docker y despliegues en entornos Linux. Uso de Git para control de versiones y colaboración en proyectos.",
-    "en": "Backend API development using Java (Spring Boot) and Go (Chi), applying clean architecture principles (hexagonal and layered). Design and implementation of scalable REST services, integration with SQL databases (PostgreSQL, YugaByteDB, ElastcSearch), Docker containerization, and deployments on Linux environments. Use of Git for version control and collaboration."
+    "en": "Backend API development using Java (Spring Boot) and Go (Chi), applying Hexagonal architecture principles (hexagonal and layered). Design and implementation of scalable REST services, integration with SQL databases (PostgreSQL, YugaByteDB, ElastcSearch), Docker containerization, and deployments on Linux environments. Use of Git for version control and collaboration."
   },
   "skills": [
     "Java",

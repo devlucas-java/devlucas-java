@@ -27,7 +27,7 @@
     "skills": ["Docker", "Linux", "Nginx", "Git", "GitHub", "VPS"]
   },
   {
-    "category": { "es": "Redes (Experiencia Laboral)", "en": "Networking (work experience)" },
+    "category": { "es": "Redes ( Experiencia Laboral )", "en": "Networking ( work experience )" },
     "icon": "🌐",
     "skills": [
       "DNS",
@@ -39,8 +39,7 @@
       "WAN / LAN / WLAN",
       "Proxy",
       "VPN",
-      "Tor Onion",
-      "Server Onion"
+      "Onion"
     ]
   },
   {
@@ -67,7 +66,7 @@
     "icon": "🔐",
     "skills": [
       "JWT",
-      "Basic Security Web",
+      "Web Security Practices",
       "SHA-256",
       "Argon2",
       "bcrypt",

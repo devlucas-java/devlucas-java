@@ -49,13 +49,20 @@ Edit the JSON files in `src/data/`:
 
 | File | Description |
 |------|-------------|
-| `profile.json` | Name, bio, photo, social links, location, languages |
+| `profile.json` | Name, bio, photo, social links, location, languages, CV config |
 | `experience.json` | Work experience entries |
 | `education.json` | Education entries |
 | `projects.json` | Projects with links and technologies |
 | `skills.json` | Skills grouped by category |
 
 Place your profile photo at `public/profile.jpg`.
+
+Place your CV/resume at `public/CV.pdf`. The download filename shown to visitors is controlled by the `cvDownloadName` field in `profile.json`:
+
+```json
+"cv": "/CV.pdf",
+"cvDownloadName": "Your-Name-Role.pdf"
+```
 
 ## 👨‍💻 Author
 

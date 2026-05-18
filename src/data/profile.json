@@ -9,6 +9,8 @@
   "en": "Backend Developer specialized in Java and Go, focused on scalable systems, clean architecture and high performance. Experience with monolithic architectures and knowledge of distributed systems, cryptography, and modern protocols such as HTTP, WebSocket and gRPC."
 },
   "photo": "/profile.jpg",
+  "cv": "/CV.pdf",
+  "cvDownloadName": "Lucas-Macedo-Desarrollador-Backend.pdf",
   "github": "https://github.com/devlucas-java",
   "linkedin": "https://linkedin.com/in/devlucas-java",
   "email": "devlucasjava@gmail.com",
