@@ -1,22 +1,47 @@
 [
   {
-    "category": { "es": "Backend", "en": "Backend" },
+    "category": {
+      "es": "Backend",
+      "en": "Backend"
+    },
     "icon": "🖥️",
     "skills": [
-      "Java",
       "Go",
+      "Java",
       "Spring Boot",
       "Chi",
-      "REST API",
+      "REST APIs",
       "WebSocket",
       "gRPC",
       "Hexagonal Architecture"
     ]
   },
   {
-    "category": { "es": "Bases de Datos", "en": "Databases" },
+    "category": {
+      "es": "Bases de Datos",
+      "en": "Databases"
+    },
     "icon": "🗄️",
-    "skills": ["PostgreSQL", "YugaByteDB", "Redis", "Elasticsearch"]
+    "skills": [
+      "PostgreSQL",
+      "Redis",
+      "Elasticsearch",
+      "YugaByteDB"
+    ]
+  },
+  {
+    "category": {
+      "es": "Observabilidad",
+      "en": "Observability"
+    },
+    "icon": "📈",
+    "skills": [
+      "OpenTelemetry",
+      "Prometheus",
+      "Grafana",
+      "Structured Logging",
+      "gRPC Interceptors"
+    ]
   },
   {
     "category": {
@@ -24,22 +49,13 @@
       "en": "DevOps & Infrastructure"
     },
     "icon": "⚙️",
-    "skills": ["Docker", "Linux", "Nginx", "Git", "GitHub", "VPS"]
-  },
-  {
-    "category": { "es": "Redes ( Experiencia Laboral )", "en": "Networking ( work experience )" },
-    "icon": "🌐",
     "skills": [
-      "DNS",
-      "IPv4 / IPv6",
-      "MikroTik",
-      "BGP",
-      "CGNAT",
-      "NAT",
-      "WAN / LAN / WLAN",
-      "Proxy",
-      "VPN",
-      "Onion"
+      "Docker",
+      "Linux",
+      "Nginx",
+      "Git",
+      "GitHub",
+      "VPS"
     ]
   },
   {
@@ -50,28 +66,76 @@
     "icon": "🏗️",
     "skills": [
       "Event-Driven Architecture",
+      "Domain-Driven Design",
+      "Adapter Pattern",
       "API Gateway",
-      "Object Storage",
+      "Object Storage (MinIO / S3)",
       "HLS Streaming",
-      "DASH Streaming"
+      "DASH Streaming",
+      "Realtime Systems"
     ]
   },
   {
-    "category": { "es": "Frontend (básico)", "en": "Frontend (basic)" },
-    "icon": "🎨",
-    "skills": ["React", "TypeScript", "HTML", "CSS", "Tailwind CSS"]
-  },
-  {
-    "category": { "es": "Seguridad", "en": "Security" },
+    "category": {
+      "es": "Seguridad",
+      "en": "Security"
+    },
     "icon": "🔐",
     "skills": [
       "JWT",
+      "OAuth2",
       "Web Security Practices",
-      "SHA-256",
       "Argon2",
       "bcrypt",
       "AES",
-      "RSA"
+      "RSA",
+      "SHA-256"
+    ]
+  },
+  {
+    "category": {
+      "es": "Testing",
+      "en": "Testing"
+    },
+    "icon": "🧪",
+    "skills": [
+      "Unit Testing",
+      "Integration Testing",
+      "JUnit 5",
+      "Mockito",
+      "Testcontainers"
+    ]
+  },
+  {
+    "category": {
+      "es": "Redes (Experiencia Laboral)",
+      "en": "Networking (Work Experience)"
+    },
+    "icon": "🌐",
+    "skills": [
+      "DNS",
+      "IPv4 / IPv6",
+      "MikroTik",
+      "BGP",
+      "CGNAT",
+      "NAT",
+      "WAN / LAN / WLAN",
+      "Proxy",
+      "VPN"
+    ]
+  },
+  {
+    "category": {
+      "es": "Frontend (Básico)",
+      "en": "Frontend (Basic)"
+    },
+    "icon": "🎨",
+    "skills": [
+      "React",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS"
     ]
   }
 ]
