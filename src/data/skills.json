@@ -6,10 +6,10 @@
     },
     "icon": "🖥️",
     "skills": [
-      "Go",
-      "Java",
-      "Spring Boot",
-      "Chi",
+      "Go(Chi)",
+      "Java(Spring Boot)",
+      "GoRuntime",
+      "Kafka",
       "REST APIs",
       "WebSocket",
       "gRPC",
@@ -36,11 +36,11 @@
     },
     "icon": "📈",
     "skills": [
-      "OpenTelemetry",
       "Prometheus",
       "Grafana",
       "Structured Logging",
-      "gRPC Interceptors"
+      "gRPC Interceptors",
+      "HTTP Middlewares"
     ]
   },
   {
@@ -51,6 +51,7 @@
     "icon": "⚙️",
     "skills": [
       "Docker",
+      "Kubernetes",
       "Linux",
       "Nginx",
       "Git",
@@ -65,11 +66,10 @@
     },
     "icon": "🏗️",
     "skills": [
-      "Event-Driven Architecture",
       "Domain-Driven Design",
       "Adapter Pattern",
       "API Gateway",
-      "Object Storage (MinIO / S3)",
+      "Object Storage (MinIO / AWS S3)",
       "HLS Streaming",
       "DASH Streaming",
       "Realtime Systems"
@@ -100,10 +100,9 @@
     "icon": "🧪",
     "skills": [
       "Unit Testing",
-      "Integration Testing",
+      "Testity",
       "JUnit 5",
-      "Mockito",
-      "Testcontainers"
+      "Mockito"
     ]
   },
   {

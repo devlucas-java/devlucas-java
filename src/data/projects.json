@@ -10,7 +10,6 @@
       "Spring Boot",
       "YugabyteDB",
       "Redis",
-      "Docker",
       "JWT",
       "WebSocket",
       "Backblaze B2",
@@ -40,8 +39,8 @@
       "GORM",
       "PostgreSQL",
       "JWT",
+      "Kafka",
       "WebSocket",
-      "Docker",
       "Swagger",
       "BTCPay (bitcoin)",
       "Elasticsearch",
@@ -74,7 +73,6 @@
       "FFmpeg",
       "MinIO /AWS-S3",
       "Redis",
-      "Docker",
       "HLS",
       "360 Video"
     ],
@@ -96,7 +94,6 @@
       "Java",
       "Spring Boot",
       "JWT",
-      "Docker",
       "Swagger",
       "MapStruct"
     ],
@@ -119,8 +116,8 @@
       "Spring Boot",
       "PostgreSQL",
       "JWT",
-      "Docker",
       "Swagger",
+      "WebSocket",
       "MapStruct",
       "Prometheus"
     ],
@@ -185,7 +182,6 @@
       "Gin",
       "MySQL",
       "GORM",
-      "Docker",
       "Swagger",
       "Logger Structured"
     ],
