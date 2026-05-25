@@ -1,72 +1,153 @@
-# devLucas-Java — Portfolio
+# 👨‍💻 Lucas Macedo
 
-Personal portfolio built with **React**, **TypeScript** and **Tailwind CSS**.
+## Backend Developer — Go • Java • Realtime Systems
 
-## 🚀 Tech Stack
+Backend Developer focused on scalable, realtime and high-performance systems using Go and Java.
 
-- React 19
-- TypeScript
-- Tailwind CSS v4
-- Vite
+I build backend applications with emphasis on:
+- ⚡ scalable architectures
+- 🔄 realtime communication
+- 🌐 distributed systems
+- 📡 network-oriented backend
+- 📈 observability
+- 🚀 performance engineering
 
-## ✨ Features
+My main focus is Golang for high concurrency and realtime systems, while also using Java for robust enterprise applications and large-scale backend architectures.
 
-- ES / EN language toggle
-- Hero section with bio, location and languages
-- Work experience timeline
-- Education section
-- Projects with GitHub, README, diagram and YouTube links
-- Filter projects by technology
-- Skills section with categories
-- Responsive design
+---
 
-## 📦 Running locally
+# 🚀 About Me
 
-```bash
-npm install
-npm run dev
-```
+- 🇪🇸 Backend Developer based in Spain
+- 🐹 Focused on Go, Java and distributed systems
+- 🌐 Interested in networking, realtime systems and backend infrastructure
+- ⚙️ Experience with REST APIs, WebSocket, gRPC and scalable backend services
+- 📈 Strong interest in performance engineering and modern backend architecture
 
-Access: http://localhost:5173
+---
 
-## 🐳 Running with Docker
+# 🛠️ Main Technologies
 
-```bash
-docker compose up --build
-```
+## 💻 Backend
+- Go
+- Java
+- Spring Boot
+- Chi
+- REST APIs
+- WebSocket
+- gRPC
+- Hexagonal Architecture
 
-Access: http://localhost:3000
+## 🗄️ Databases
+- PostgreSQL
+- Redis
+- Elasticsearch
+- YugaByteDB
 
-## ⚙️ Stopping
+## 📊 Observability
+- OpenTelemetry
+- Prometheus
+- Grafana
+- Structured Logging
 
-```bash
-docker compose down
-```
+## ☁️ Infrastructure
+- Docker
+- Linux
+- Nginx
+- GitHub Actions
+- VPS
+- MinIO / S3
 
-## 🛠 Customization
+## 🏗️ System Architecture
+- Realtime Systems
+- CDC (Change Data Capture)
+- API Gateway
+- Streaming Systems
+- Distributed Systems
+- Event-Driven Architecture
 
-Edit the JSON files in `src/data/`:
+## 🔐 Security
+- JWT
+- OAuth2
+- Argon2
+- bcrypt
+- AES
+- RSA
 
-| File | Description |
-|------|-------------|
-| `profile.json` | Name, bio, photo, social links, location, languages, CV config |
-| `experience.json` | Work experience entries |
-| `education.json` | Education entries |
-| `projects.json` | Projects with links and technologies |
-| `skills.json` | Skills grouped by category |
+---
 
-Place your profile photo at `public/profile.jpg`.
+# 📂 Featured Projects
 
-Place your CV/resume at `public/CV.pdf`. The download filename shown to visitors is controlled by the `cvDownloadName` field in `profile.json`:
+## 🌐 Social Klyp
+Social network backend built with Java 21 and Spring Boot using Hexagonal Architecture.
 
-```json
-"cv": "/CV.pdf",
-"cvDownloadName": "Your-Name-Role.pdf"
-```
+### Features
+- 🔐 JWT Authentication
+- 🌍 Google OAuth2
+- 💬 WebSocket realtime chat
+- 🛡️ Argon2 password hashing
+- ☁️ Backblaze B2 storage
+- 🧪 200+ tests
 
-## 👨‍💻 Author
+---
 
-**Lucas Macedo** — Backend Developer
+## 🛒 Klyp Shop
+E-commerce platform inspired by Amazon built with Go.
 
-- GitHub: [@devlucas-java](https://github.com/devlucas-java)
-- LinkedIn: [devlucas-java](https://linkedin.com/in/devlucas-java)
+### Features
+- 🏗️ Hexagonal Architecture
+- 🛍️ Seller dashboard
+- ₿ Bitcoin payments
+- 💬 Realtime encrypted chat
+- ⚡ WebSocket
+- 🔐 JWT Authentication
+
+---
+
+## 🎥 Luca S3
+Video transcoding and streaming infrastructure built with Go, gRPC and FFmpeg.
+
+### Features
+- 📺 HLS adaptive streaming
+- 🎞️ 4K transcoding
+- ☁️ Distributed object storage
+- 🔄 Resumable jobs
+- ⚙️ Video processing pipeline
+- 📦 MinIO integration
+
+---
+
+# 🌍 Portfolio Project
+
+You can see the full portfolio project and technical details here:
+
+👉 [README-Project.md](./README-Project.md)
+
+---
+
+# 🎯 Current Focus
+
+Currently focused on:
+- 🐹 Golang backend engineering
+- ⚡ scalable realtime systems
+- 🌐 websocket performance
+- 🏗️ distributed architectures
+- 📡 networking and infrastructure
+- 🚀 high-performance APIs
+- 🔄 event-driven systems
+
+---
+
+# 🌎 Languages
+
+- 🇧🇷 Portuguese — Native
+- 🇪🇸 Spanish — B1
+- 🇺🇸 English — A1
+
+---
+
+# 📫 Contact
+
+- 💻 GitHub: https://github.com/devlucas-java
+- 🔗 LinkedIn: https://linkedin.com/in/devlucas-java
+- 📧 Email: devlucasjava@gmail.com
