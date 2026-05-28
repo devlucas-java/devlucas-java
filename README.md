@@ -93,7 +93,6 @@ Currently focused on:
 - 🏗️ distributed architectures
 - 📡 networking and infrastructure
 - 🚀 high-performance APIs
-- 🔄 event-driven systems
 
 ---
 
