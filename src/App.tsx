@@ -14,10 +14,10 @@ export default function App() {
         <Navbar />
         <main className='mt-5'>
           <Hero />
-          <Experience />
-          <Education />
           <Projects />
           <Skills />
+          <Education />
+          <Experience />
           <Contact />
         </main>
       </div>

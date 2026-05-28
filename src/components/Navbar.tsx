@@ -7,18 +7,18 @@ export default function Navbar() {
   const links = {
     es: [
       { label: 'Inicio', href: '#hero' },
-      { label: 'Experiencia', href: '#experience' },
-      { label: 'Educación', href: '#education' },
       { label: 'Proyectos', href: '#projects' },
       { label: 'Habilidades', href: '#skills' },
+      { label: 'Educación', href: '#education' },
+      { label: 'Experiencia', href: '#experience' },
       { label: 'Contacto', href: '#contact' },
     ],
     en: [
       { label: 'Home', href: '#hero' },
-      { label: 'Experience', href: '#experience' },
-      { label: 'Education', href: '#education' },
       { label: 'Projects', href: '#projects' },
       { label: 'Skills', href: '#skills' },
+      { label: 'Education', href: '#education' },
+      { label: 'Experience', href: '#experience' },
       { label: 'Contact', href: '#contact' },
     ],
   };
