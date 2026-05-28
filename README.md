@@ -76,47 +76,6 @@ My main focus is Golang for high concurrency and realtime systems, while also us
 
 ---
 
-# 📂 Featured Projects
-
-## 🌐 Social Klyp
-Social network backend built with Java 21 and Spring Boot using Hexagonal Architecture.
-
-### Features
-- 🔐 JWT Authentication
-- 🌍 Google OAuth2
-- 💬 WebSocket realtime chat
-- 🛡️ Argon2 password hashing
-- ☁️ Backblaze B2 storage
-- 🧪 200+ tests
-
----
-
-## 🛒 Klyp Shop
-E-commerce platform inspired by Amazon built with Go.
-
-### Features
-- 🏗️ Hexagonal Architecture
-- 🛍️ Seller dashboard
-- ₿ Bitcoin payments
-- 💬 Realtime encrypted chat
-- ⚡ WebSocket
-- 🔐 JWT Authentication
-
----
-
-## 🎥 Luca S3
-Video transcoding and streaming infrastructure built with Go, gRPC and FFmpeg.
-
-### Features
-- 📺 HLS adaptive streaming
-- 🎞️ 4K transcoding
-- ☁️ Distributed object storage
-- 🔄 Resumable jobs
-- ⚙️ Video processing pipeline
-- 📦 MinIO integration
-
----
-
 # 🌍 Portfolio Project
 
 You can see the full portfolio project and technical details here:
