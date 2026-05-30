@@ -13,7 +13,8 @@
       "REST APIs",
       "WebSocket",
       "gRPC",
-      "Hexagonal Architecture"
+      "Hexagonal Architecture",
+      "Concurrency Patterns"
     ]
   },
   {
@@ -68,11 +69,13 @@
     "skills": [
       "Domain-Driven Design",
       "Adapter Pattern",
-      "API Gateway",
+      "API Gateway (Nginx)",
       "Object Storage (MinIO / AWS S3)",
       "HLS Streaming",
       "DASH Streaming",
-      "Realtime Systems"
+      "Realtime Systems",
+      "Kafka",
+      "CDC (Change Data Capture)"
     ]
   },
   {
@@ -100,7 +103,7 @@
     "icon": "🧪",
     "skills": [
       "Unit Testing",
-      "Testity",
+      "Testify",
       "JUnit 5",
       "Mockito"
     ]
@@ -120,7 +123,8 @@
       "NAT",
       "WAN / LAN / WLAN",
       "Proxy",
-      "VPN"
+      "VPN",
+      "TCP / UDP"
     ]
   },
   {
