@@ -23,8 +23,8 @@
       "en": "Social Klyp — Social Network Backend"
     },
     "description": {
-      "es": "API REST de red social construida con Java 21, Spring Boot y Arquitectura Hexagonal. Incluye autenticación JWT (Nimbus JOSE), contraseñas Argon2, login social con Google OAuth2, chat en tiempo real con WebSocket/STOMP, almacenamiento en Backblaze B2 y tests unitarios con JUnit 5 y Mockito, Con 200+ tests implementados.",
-      "en": "Social network REST API built with Java 21, Spring Boot and Hexagonal Architecture. Features JWT auth (Nimbus JOSE), Argon2 passwords, Google OAuth2 social login, real-time chat with WebSocket/STOMP, Backblaze B2 storage and unit tests with JUnit 5 and Mockito, Project has 200+ tests implemented."
+      "es": "API REST de red social construida con Java 21, Spring Boot y Arquitectura Hexagonal. Incluye autenticación JWT (Nimbus JOSE), contraseñas Argon2, chat en tiempo real con WebSocket/STOMP, almacenamiento en Backblaze B2 y tests unitarios con JUnit 5 y Mockito. Con más de 200 pruebas implementadas.",
+      "en": "Social network REST API built with Java 21, Spring Boot and Hexagonal Architecture. Features JWT authentication (Nimbus JOSE), Argon2 password hashing, real-time chat with WebSocket/STOMP, Backblaze B2 storage, and unit tests with JUnit 5 and Mockito. The project includes 200+ tests."
     }
   },
   {
