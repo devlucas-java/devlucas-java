@@ -33,8 +33,7 @@
     "technologies": [
       "Go",
       "WebSocket",
-      "WebRTC",
-      "Pion WebRTC",
+      "STOMP",
       "Docker",
       "Structured Logging"
     ],
@@ -43,8 +42,8 @@
       "en": "Luca Omegle — Real-Time Communication Platform"
     },
     "description": {
-      "es": "Proyecto experimental inspirado en Omegle, desarrollado con Go para estudiar WebRTC, WebSockets y sistemas de baja latencia. Actualmente incluye un servidor WebSocket para comunicación en tiempo real y gestión de conexiones. En desarrollo: salas anónimas, emparejamiento aleatorio, señalización WebRTC, chat de texto y comunicación de audio y vídeo peer-to-peer.",
-      "en": "Experimental project inspired by Omegle, built with Go to explore WebRTC, WebSockets and low-latency systems. Currently includes a WebSocket server for real-time communication and connection management. In development: anonymous rooms, random matchmaking, WebRTC signaling, text chat and peer-to-peer audio/video communication."
+      "es": "Proyecto experimental inspirado en Omegle, desarrollado con Go para estudiar sistemas de comunicación en tiempo real y arquitecturas concurrentes. Implementa un servidor WebSocket con protocolo STOMP para mensajería, gestión de conexiones y emparejamiento aleatorio de usuarios. El objetivo del proyecto es explorar patrones de concurrencia en Go, diseño de protocolos y aplicaciones de baja latencia.",
+      "en": "Experimental project inspired by Omegle, built with Go to explore real-time communication systems and concurrent architectures. It implements a WebSocket server using the STOMP protocol for messaging, connection management and random user matchmaking. The project's goal is to study Go concurrency patterns, protocol design and low-latency applications."
     }
   },
   {
