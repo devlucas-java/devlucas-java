@@ -5,8 +5,8 @@
     "en": "Backend Developer"
   },
 "bio": {
-  "es": "Desarrollador Backend especializado en Java y Go, enfocado en sistemas escalables, arquitectura limpia y alto rendimiento. Experiencia en arquitecturas monolíticas y conocimientos en sistemas distribuidos, criptografía y protocolos modernos como HTTP, WebSocket y gRPC.",
-  "en": "Backend Developer specialized in Java and Go, focused on scalable systems, clean architecture and high performance. Experience with monolithic architectures and knowledge of distributed systems, cryptography, and modern protocols such as HTTP, WebSocket and gRPC."
+  "es": "Desarrollador Backend especializado en Java y Go, enfocado en sistemas escalables, arquitectura limpia y alto rendimiento. Experiencia en arquitecturas monolíticas, en criptografía, buenas prácticas de seguridad web y protocolos modernos como HTTP, WebSocket y gRPC.",
+  "en": "Backend Developer specialized in Java and Go, focused on scalable systems, clean architecture and high performance. Experience with monolithic architectures, cryptography, web security best practices, and modern protocols such as HTTP, WebSocket and gRPC."
 },
   "photo": "/profile.jpg",
   "cv": "/CV.pdf",
