@@ -8,12 +8,12 @@
     "skills": [
       "Go(Chi)",
       "Java(Spring Boot)",
-      "GoRuntime",
-      "Kafka",
       "REST APIs",
       "WebSocket",
       "gRPC",
       "Hexagonal Architecture",
+      "Goroutines",
+      "Go Channels",
       "Concurrency Patterns"
     ]
   },
@@ -25,9 +25,7 @@
     "icon": "🗄️",
     "skills": [
       "PostgreSQL",
-      "Redis",
-      "Elasticsearch",
-      "YugaByteDB"
+      "Redis"
     ]
   },
   {
@@ -38,7 +36,6 @@
     "icon": "📈",
     "skills": [
       "Prometheus",
-      "Grafana",
       "Structured Logging",
       "gRPC Interceptors",
       "HTTP Middlewares"
@@ -52,7 +49,6 @@
     "icon": "⚙️",
     "skills": [
       "Docker",
-      "Kubernetes",
       "Linux",
       "Nginx",
       "Git",
@@ -67,15 +63,13 @@
     },
     "icon": "🏗️",
     "skills": [
-      "Domain-Driven Design",
       "Adapter Pattern",
       "API Gateway (Nginx)",
       "Object Storage (MinIO / AWS S3)",
       "HLS Streaming",
       "DASH Streaming",
       "Realtime Systems",
-      "Kafka",
-      "CDC (Change Data Capture)"
+      "Multipart Upload"
     ]
   },
   {

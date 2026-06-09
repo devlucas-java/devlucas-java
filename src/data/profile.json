@@ -26,12 +26,12 @@
     },
     {
       "name": { "es": "Español", "en": "Spanish" },
-      "level": { "es": "B1", "en": "B1" },
+      "level": { "es": "B2", "en": "B2" },
       "flag": "🇪🇸"
     },
     {
       "name": { "es": "Inglés", "en": "English" },
-      "level": { "es": "A1", "en": "A1" },
+      "level": { "es": "A2", "en": "A2" },
       "flag": "🇺🇸"
     }
   ]
