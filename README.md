@@ -99,8 +99,8 @@ Currently focused on:
 # 🌎 Languages
 
 - 🇧🇷 Portuguese — Native
-- 🇪🇸 Spanish — B1
-- 🇺🇸 English — A1
+- 🇪🇸 Spanish — B2
+- 🇺🇸 English — A2
 
 ---
 
